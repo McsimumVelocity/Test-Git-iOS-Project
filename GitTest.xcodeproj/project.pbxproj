@@ -13,6 +13,7 @@
 		271F34081966B1BD003A37C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271F34061966B1BD003A37C3 /* Main.storyboard */; };
 		271F340A1966B1BD003A37C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271F34091966B1BD003A37C3 /* Images.xcassets */; };
 		271F34161966B1BD003A37C3 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F34151966B1BD003A37C3 /* GitTestTests.m */; };
+		271F34211966BBA7003A37C3 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F34201966BBA7003A37C3 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		271F340F1966B1BD003A37C3 /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		271F34141966B1BD003A37C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		271F34151966B1BD003A37C3 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		271F341F1966BBA7003A37C3 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		271F34201966BBA7003A37C3 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		271F33F01966B1BC003A37C3 = {
 			isa = PBXGroup;
 			children = (
+				271F341F1966BBA7003A37C3 /* CCTest.h */,
+				271F34201966BBA7003A37C3 /* CCTest.m */,
 				271F33FB1966B1BC003A37C3 /* GitTest */,
 				271F34121966B1BD003A37C3 /* GitTestTests */,
 				271F33FA1966B1BC003A37C3 /* Products */,
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				271F34051966B1BD003A37C3 /* ViewController.m in Sources */,
+				271F34211966BBA7003A37C3 /* CCTest.m in Sources */,
 				271F34021966B1BD003A37C3 /* AppDelegate.m in Sources */,
 				271F33FF1966B1BD003A37C3 /* main.m in Sources */,
 			);
